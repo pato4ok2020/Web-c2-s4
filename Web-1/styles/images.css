@@ -1,0 +1,24 @@
+img.img-left {
+    float: left;
+    margin-right: 10px;
+}
+
+img.img-right {
+    float: right;
+    margin-left: 10px;
+}
+
+img.img-center {
+    margin: 10px auto 10px;
+    display: block;
+}
+
+img.java-logo {
+    height: 100px;
+}
+
+img.duke, img.gosling {
+    height: 200px;
+    border: 4px solid green;
+    border-style: dashed;
+}

@@ -1,0 +1,32 @@
+:root {
+    --basic-height: 75px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+div.container, div.group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.box {
+    height: var(--basic-height);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    border: 10px solid black;
+} 
+
+div.hide {
+    display: none;
+}

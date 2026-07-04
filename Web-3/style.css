@@ -1,0 +1,92 @@
+:root {
+    --purple: #9370DB;
+    --light-gray: #E8E8E8;
+    --base-height: 30px;
+    --light-purple: #F0F8FF;
+    --error: #C72C28;
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+body {
+    background-color: #E6E6FA;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+nav {
+    height: 50px;
+}
+
+a, button, main, input, div.result-box {
+    border-radius: 5px;
+}  
+
+a, button {
+    background-color: var(--purple);
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px #000000;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+h2, label {
+    font-weight: bolder;
+}
+
+h2, p, label {
+    font-size: 14px;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 7px;
+    width: 100%;
+}
+
+input {
+    height: var(--base-height);
+    border: solid 1px var(--light-gray);
+    padding-left: 10px;
+}
+
+div.result-box {
+    display: none;
+    height: var(--base-height);
+    border-left: solid 3px var(--purple);
+    background-color: var(--light-purple);
+    padding: 5px 10px;
+    font-weight: 600;
+}
+
+div.result-box.success {
+    display: block;
+    color: var(--purple);
+}
+
+div.result-box.error {
+    display: block;
+    color: var(--error);
+}
+
+section {
+    border: solid 1px var(--light-gray);
+    padding: 15px;
+    margin-bottom: 20px;
+}

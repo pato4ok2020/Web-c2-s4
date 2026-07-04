@@ -1,0 +1,142 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+*:focus-visible {
+    outline: 3px dashed #228bec;
+    outline-offset: 0;
+}
+
+html {
+    font: 62.5% / 1.15 sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+    color: #4d4d4d;
+    font: 1.6rem/1.25 "Arial", sans-serif;
+    margin: 0 auto;
+    max-width: 100rem;
+    /* Сделали шире */
+    width: 90%;
+}
+
+@media screen and (width >=620px) {
+    body {
+        font-size: 1.9rem;
+        line-height: 1.31579;
+    }
+}
+
+.btn {
+    border: 0.2rem solid #4d4d4d;
+    padding: 0.8rem 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    transition: background 0.2s, color 0.2s;
+}
+
+.btn__primary {
+    display: block;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #000;
+    padding: 1.2rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: background-color 0.2s ease;
+}
+
+.btn__primary:hover {
+    background-color: #4d4d4d;
+    border-color: #4d4d4d;
+}
+
+.btn__primary:active {
+    background-color: #333;
+    opacity: 0.9;
+}
+
+.posts-container {
+    background: white;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%), 0 2.5rem 5rem 0 rgb(0 0 0 / 10%);
+    margin: 2rem 0 4rem 0;
+    padding: 2rem;
+}
+
+@media screen and (width >=550px) {
+    .posts-container {
+        padding: 4rem;
+    }
+}
+
+.label__lg {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+.input__lg {
+    border: 2px solid black;
+    padding: 1.5rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    font: inherit;
+}
+
+.post-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 4rem;
+}
+
+.post {
+    border: 2px solid #565656;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    position: relative;
+}
+
+.post__title {
+    font-size: 2.4rem;
+    margin: 0 0 0.5rem 0;
+    color: black;
+    inline-size: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.post__text {
+    background: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    font-family: inherit;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+.post__date {
+    display: block;
+    font-size: 1.3rem;
+    color: #888;
+    margin-bottom: 1.5rem;
+}
+
+.visually-hidden {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute !important;
+    white-space: nowrap;
+    width: 1px;
+}

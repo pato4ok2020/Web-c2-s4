@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script2.js" defer></script>
+    <title> Задание 2 </title>
+</head>
+<body>
+    <nav>
+        <a href="index1.html"> 1 задание </a>
+        <a href="index2.html"> 2 задание </a>
+        <a href="index3.html"> 3 задание </a>
+        <a href="index4.html"> 4 задание </a>
+    </nav>
+
+    <main>
+        <h1> Задание 2. Вариант 1 </h1>
+        <h2> Обработка массива действительных чисел </h2>
+        
+        <section class="A">
+            <h2> Часть A </h2>
+            <p> 
+                Сумма элементов массива от начала до первого элемента, удовлетворяющего условию:
+                синус этого числа есть число положительное
+            </p>
+
+            <label> Введите массив чисел (через запятую): </label>
+            <input type="text" id="array_inputA" placeholder="Например: 1.5, -2.3, 3.14, -1.7">
+            <button class="result-button" id="result_buttonA"> Вычислить сумму </button><br><br>
+            <div class="result-box" id="result_boxA"></div>
+        </section>
+        
+        <section class="B">
+            <h2> Часть B </h2>
+            <p> 
+                Удалить из массива все элементы, модуль целой части которых — 
+                это число, все цифры которого чётные
+            </p>
+            
+            <label> Введите массив чисел (через запятую): </label>
+            <input type="text" id="array_inputB" placeholder="Например: 24.5, 13.7, 68.2, 42.1">
+            <button class="result-button" id="result_buttonB"> Обработать массив </button><br><br>
+            <div class="result-box" id="result_boxB"></div>
+        </section>        
+    </main>
+</body>
+</html>

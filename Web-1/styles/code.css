@@ -1,0 +1,41 @@
+pre.code {
+    background-color: #23272E; 
+    border-width: 2px;
+    border-color: #338590;
+    border-style: solid;
+    color: rgb(192, 192, 192);
+    overflow-x: auto;
+    padding: 0 10px 0 10px;
+}
+
+span.keyword {
+    color: #A778DD;
+}
+
+span.string {
+    color: #98C379;
+}
+
+span.var, span.param, span.field {
+    color: #E06C75;
+}
+
+span.type {
+    color: #A778DD;
+}
+
+span.classname {
+    color: #E5C07B;
+}
+
+span.comment {
+    color: #7F848E;
+}
+
+span.method {
+    color: #43A3EF;
+}
+
+span.number {
+    color: #D19A61;
+}

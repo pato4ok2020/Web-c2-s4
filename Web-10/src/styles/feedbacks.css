@@ -1,0 +1,36 @@
+.feedbacks-section h3 {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+.feedback-form {
+  background: var(--surface2);
+  border-radius: var(--radius);
+  padding: 24px;
+  margin-bottom: 24px;
+}
+.feedback-form h4 {
+  margin-bottom: 16px;
+}
+.feedbacks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.feedback {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 20px;
+  box-shadow: var(--shadow);
+}
+.feedback-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+.feedback-date {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  margin-left: auto;
+}

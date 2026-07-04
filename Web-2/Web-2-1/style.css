@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+div.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: fit-content;
+}
+
+div.num {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+div.row {
+    display: flex;
+    gap: 3px;
+}
+
+div[class="num 5"] div[class="row 4"] {
+    justify-content: flex-end;
+}
+
+div[class="num 0"] div[class="row 2"] {
+    justify-content: space-between;
+}
+
+div[class="num 0"] div[class="row 3"] {
+    justify-content: space-between;
+}
+
+div[class="num 0"] div[class="row 4"] {
+    justify-content: space-between;
+}
+
+div.square {
+    background-color: green;
+    width: 50px;
+    height: 50px;
+}

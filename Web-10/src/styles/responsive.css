@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+  .main-header {
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px;
+  }
+  .main-nav {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .nav-auth {
+    margin-left: 0;
+    justify-content: center;
+  }
+  .companies-list, .products-list {
+    grid-template-columns: 1fr;
+  }
+  .cart-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

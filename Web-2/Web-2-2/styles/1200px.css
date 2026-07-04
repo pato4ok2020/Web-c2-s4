@@ -1,0 +1,78 @@
+@media (min-width: 769px) {
+    div[class='group 1'], div[class='group 6'] {
+        flex-basis: 100%;
+    }
+
+    div[class='group 2'] {
+        flex-basis: 67%; 
+        min-height: calc(2 * var(--basic-height));
+    }
+
+    div[class='group 3'] {
+        flex-basis: 33%; 
+        min-height: calc(2 * var(--basic-height));
+    }
+
+    div[class='group 4'] {
+        flex-basis: 75%; 
+        min-height: calc(3 * var(--basic-height));
+    }
+
+    div[class='group 5'] {
+        flex-basis: 25%; 
+        min-height: calc(3 * var(--basic-height));
+    }
+
+    div[class='group 6'] {
+        justify-content: space-around;
+    }
+
+    div[class='group 7'] {
+        flex-basis: 25%; 
+        min-height: calc(2 * var(--basic-height));
+    }
+
+    div[class='group 8'] {
+        flex-basis: 25%; 
+        min-height: calc(2 * var(--basic-height));
+    }
+
+    div[class='group 9'] {
+        flex-basis: 50%; 
+        min-height: calc(2 * var(--basic-height));
+    }
+
+    div[class='group 1'] div.colorCD5C5C, div[class='group 1'] div.color8B0000,
+    div[class='group 4'] div.color32CD32, div[class='group 4'] div.color006400,
+    div[class='group 4'] div.color9ACD32 {
+        flex-basis: 25%;
+    }
+
+    div[class='group 1'] div.colorDC143C, div[class='group 9'] div.colorA52A2A,
+    div[class='group 9'] div.color800000  {
+        flex-basis: 50%;
+    }
+
+    div[class='group 4'] div.color00FA9A, div[class='group 4'] div.color2E8B57, 
+    div[class='group 4'] div.color808000 {
+        flex-basis: 75%;
+    }
+
+    div[class='group 2'] div.colorFFC0CB, div[class='group 2'] div.colorFF69B4,
+    div[class='group 3'] div.colorC71585, div[class='group 5'] div.colorADFF2F,
+    div[class='group 5'] div.color00FF00, div[class='group 7'] div.colorBC8F8F,
+    div[class='group 7'] div.colorF4A460, div[class='group 8'] div.colorD2691E,
+    div[class='group 9'] div.color8B4513 {
+        flex-basis: 100%;
+    }
+
+    div[class='group 3'] div.colorC71585, div[class='group 5'] div.color00FF00,
+    div[class='group 8'] div.colorD2691E { 
+        min-height: calc(2 * var(--basic-height));
+    }
+
+    div[class='group 6'] div.colorFFA07A, div[class='group 6'] div.colorFF4500, 
+    div[class='group 6'] div.colorFFA500 {
+        flex-basis: 17%;
+    }
+}

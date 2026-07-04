@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "bebasneuecyrillic";
+    src: url("../fonts/bebasneuecyrillic.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 90vh;
+    width: 96vw;
+    padding: 20px;
+    background-color: #e0f7fa; 
+
+    color: #006064;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.flex-item {
+    border: 2px solid #00b5bb;;
+    padding: 10px;
+    height: fit-content;
+    margin-bottom: 2px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "bebasneuecyrillic";
+    text-align: center;
+    letter-spacing: 0.2rem;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+p, li {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+p {
+    text-indent: 10px;
+}
+
+ul.custom-list {
+    list-style-image: url("../images/marker.png");
+}
+
+dfn.definition {
+    background-color: #b1f6ff;
+    border-color: green;
+    border-radius: 2px;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    text-indent: 0;
+    padding: 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.table-wrapper {
+    max-width: 100%;
+    overflow-x: auto;
+}

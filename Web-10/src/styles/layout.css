@@ -1,0 +1,150 @@
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  letter-spacing: -0.5px;
+}
+
+.current-user {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: var(--surface2);
+  padding: 6px 16px 6px 20px;
+  border-radius: 40px;
+}
+
+.current-user button {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  padding: 4px 12px;
+  font-size: 0.8rem;
+  box-shadow: none;
+}
+
+.current-user button:hover {
+  background: var(--border);
+  color: var(--text);
+}
+
+.main-nav {
+  display: flex;
+  gap: 8px;
+  padding: 12px 32px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.main-nav a {
+  padding: 8px 16px;
+  border-radius: 40px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  transition: all 0.2s;
+}
+
+.main-nav a:hover, .main-nav a.active {
+  background: var(--accent);
+  color: white;
+  text-decoration: none;
+}
+
+.nav-auth {
+  margin-left: auto;
+  display: flex;
+  gap: 8px;
+}
+
+.back-button-wrap {
+  padding: 12px 32px 0;
+}
+
+.back-btn {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  padding: 6px 14px;
+  border-radius: 40px;
+}
+
+.back-btn:hover {
+  background: var(--surface2);
+  transform: none;
+}
+
+.office-page h2 {
+  font-size: 2rem;
+  margin-bottom: 28px;
+  background: linear-gradient(135deg, var(--text), var(--accent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.office-section {
+  margin-bottom: 40px;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.section-header h3 {
+  font-size: 1.5rem;
+}
+
+.add-product-form {
+  background: var(--surface2);
+  border-radius: var(--radius);
+  padding: 24px;
+  margin-bottom: 24px;
+  max-width: 500px;
+}
+
+.form-row {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.office-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+
+.edit-profile-btn {
+  background: var(--accent2);
+  padding: 8px 20px;
+  font-size: 0.9rem;
+}
